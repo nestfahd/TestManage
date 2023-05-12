@@ -1,0 +1,139 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-12T10:14:50.418Z",
+        "line": 5,
+        "name": "verify user can launch app successfully",
+        "description": "",
+        "id": "test-as-a-admin---i-can-launch-the-app-and-login-successfully;verify-user-can-launch-app-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2962000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch chrome browser",
+            "match": {
+              "location": "steppp.Steppi.launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1517000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to demoAPP url",
+            "match": {
+              "location": "steppp.Steppi.navigate_to_demo_app_url()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TES-4"
+          },
+          {
+            "name": "@TEST_TES-1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-12T10:14:54.981Z",
+        "line": 9,
+        "name": "verify user can login successfully",
+        "description": "",
+        "id": "test-as-a-admin---i-can-launch-the-app-and-login-successfully;verify-user-can-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3065000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter username and password",
+            "match": {
+              "location": "steppp.Steppi.enter_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7185000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Login button",
+            "match": {
+              "location": "steppp.Steppi.click_login_button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TES-4"
+          },
+          {
+            "name": "@TEST_TES-2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-12T10:15:05.238Z",
+        "line": 13,
+        "name": "Close a browser",
+        "description": "",
+        "id": "test-as-a-admin---i-can-launch-the-app-and-login-successfully;close-a-browser",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5171000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I close a browser",
+            "match": {
+              "location": "steppp.Steppi.i_close_a_browser()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TES-4"
+          },
+          {
+            "name": "@TEST_TES-3"
+          }
+        ]
+      }
+    ],
+    "name": "Test as a admin , I can launch the App and login successfully",
+    "description": "",
+    "id": "test-as-a-admin---i-can-launch-the-app-and-login-successfully",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TES-1,TES-2,TES-3.feature",
+    "tags": [
+      {
+        "name": "@TES-4",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
