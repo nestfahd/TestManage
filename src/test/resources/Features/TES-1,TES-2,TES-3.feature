@@ -1,4 +1,4 @@
-@TES-4
+@TES-5
 Feature: Test as a admin , I can launch the App and login successfully
 
 	@TEST_TES-1
