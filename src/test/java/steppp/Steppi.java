@@ -31,7 +31,7 @@ public class Steppi  extends Pageexexuteclass{
 
 	@Given("I close a browser")
 	public void i_close_a_browser() throws InterruptedException {
-		closeTheBrowser();
+		//closeTheBrowser();
 	    
 
 
